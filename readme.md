@@ -2,6 +2,12 @@
 
 GoBridge example code from https://gobridge.gitbooks.io/building-web-apps-with-go/content/en/
 
+## Prerequistes
+
+- [Negroni](https://github.com/codegangsta/negroni)
+
+From the `deployment` directory, run `go get` to fetch the dependencies from GitHub.
+
 ### Examples
 
 - [Static File Server](../../tree/static-files)
@@ -17,4 +23,6 @@ GoBridge example code from https://gobridge.gitbooks.io/building-web-apps-with-g
 - [Controllers](../../tree/controllers)
 - [Databases](../../tree/databases)
 
-To run this example, run `go run deployment/main.go` from the root of this repository, then open a browser and navigate to [http://localhost:8080](http://localhost:8000)
+For this example, you need to add the query string to the URL to access the root path:
+
+[http://localhost:8080/?password=secret123](http://localhost:8080/?password=secret123)
