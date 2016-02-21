@@ -16,3 +16,11 @@ GoBridge example code from https://gobridge.gitbooks.io/building-web-apps-with-g
 - [End to End Testing](../../tree/integration-tests)
 - [Controllers](../../tree/controllers)
 - [Databases](../../tree/databases)
+
+## Prerequistes
+
+From the `deployment` directory, run `go get` to fetch the dependencies from GitHub.
+
+# Running the Code
+
+To run this example, run `go run deployment/main.go` from the root of this repository, then open a browser and navigate to [http://localhost:8080](http://localhost:8000)
