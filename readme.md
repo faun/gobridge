@@ -16,3 +16,5 @@ GoBridge example code from https://gobridge.gitbooks.io/building-web-apps-with-g
 - [End to End Testing](../../tree/integration-tests)
 - [Controllers](../../tree/controllers)
 - [Databases](../../tree/databases)
+
+To run this example, run `go test`
