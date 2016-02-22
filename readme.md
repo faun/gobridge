@@ -16,3 +16,12 @@ GoBridge example code from https://gobridge.gitbooks.io/building-web-apps-with-g
 - [End to End Testing](../../tree/integration-tests)
 - [Controllers](../../tree/controllers)
 - [Databases](../../tree/databases)
+
+To run this example, you must firs run `go build`, then run the binary:
+
+    gobridge
+
+Alternatively, you can run all of the files:
+
+    go run *.go
+
