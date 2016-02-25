@@ -6,7 +6,7 @@ GoBridge example code from https://gobridge.gitbooks.io/building-web-apps-with-g
 
 - [Negroni](https://github.com/codegangsta/negroni)
 
-From the `deployment` directory, run `go get` to fetch the dependencies from GitHub.
+From the project root, run `go get` to fetch the dependencies from GitHub.
 
 ### Examples
 
