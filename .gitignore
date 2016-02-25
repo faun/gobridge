@@ -23,8 +23,4 @@ _testmain.go
 *.test
 *.prof
 
-/Godeps
-
-/deployment/deployment
-/gobridge
 *.sqlite
